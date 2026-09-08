@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <link rel="icon" href="牛油果.png">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .solid{
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 240px;
+            height: max-content;
+            background: #222;
+            color: aliceblue;
+            padding: 30px 20px;
+        }
+        .photo{
+            width: 140px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        .a{
+            display: block;
+            color: #ccc;
+            text-decoration: none;
+            margin: 12px 0;
+            font-size: 16px;
+        }
+        .a:hover{
+            margin-bottom: 60px;
+        }
+        .main{
+            margin-left:240px;
+            padding:40px 60px;
+            max-width:900px;
+        }
+        section{
+            margin-bottom: 60px;
+        }
+        h2{
+            margin-bottom:20px;
+            border-bottom:1px solid #aaa;
+            padding-bottom:8px;
+        }
+    </style>
+</head>
+<body>
+    <!--左侧固定侧边栏-->
+    <div class="sidebar">
+        <img src="椰子.png" alt="头像">
+        <h3>邹雨馨</h3>
+        <ul>
+        <li><a href="#edu">教育经历</a></li>
+        <li><a href="#research">项目经历</a></li>
+        <li><a href="#publication">论文发表</a></li>
+        <li><a href="#contact">联系方式</a></li>
+    </ul>
+    </div>
+
+    <!--右侧可滚动内容区-->
+    <div class="main">
+        <section id="edu">
+            <h2>教育经历(虚构，ai生成)</h2>
+            <h3>曲阜师范大学 | 计算机科学与技术 | 本科 | 2025.09‑2029.06</h3>
+            <ul>
+            <li>主修课程：数据结构、计算机组成原理、操作系统、计算机网络、Web 前端开发、数据库原理、C++ 程序设计、数字电子技术</li>
+            <li>学业情况：专业基础扎实，系统学习计算机软硬件相关知识，熟练掌握 HTML、CSS 基础网页开发，能够独立完成静态网页布局、样式美化，了解 Git 与 GitHub‑Pages 网页部署流程</li>
+            <li>校园实践：参与学院网页兴趣小组，练习静态个人主页、信息卡片、列表页面开发；参与班级信息化辅助工作，协助整理文档资料。</li>
+            <li>技能积累：掌握 VS Code 开发工具，熟悉盒模型、浮动、布局、文本溢出处理等 CSS 核心知识点；了解基础网络与 IP 相关概念。</li>
+        </ul></section>
+
+        <section id="research">
+            <h2>项目经历(虚构，ai生成)</h2>
+            <h3>静态个人学术主页｜2026.08‑2026.09</h3>
+            <ul>
+            <li>项目描述：基于 HTML+CSS 实现个人展示网页，左侧固定导航栏、右侧滚动内容区域，实现超链接跳转、卡片布局、图片自适应处理。</li>
+            <li>技术点：盒模型、padding/margin 内外边距、border‑radius 圆角、图片等比例适配、ol/ul 列表、GitHub Pages 部署上线。</li>
+            <li>工作内容：完成页面结构搭建，样式统一优化，处理图片变形、文本溢出省略等常见网页问题，完成仓库上传与网页发布。</li>
+        </ul></section>
+
+        <section id="publication">
+            <h2>论文发表(虚构，ai生成)</h2>
+            <p>论文标题、期刊、DOI……</p>
+        </section>
+
+        <section id="contact">
+            <h2>联系方式(虚构，ai生成)</h2>
+            <p>Tel:17863996658</p>
+            <p>Email: duqinhong0@gmail.com</p>
+        </section>
+    </div>
+</body>
+</html>
